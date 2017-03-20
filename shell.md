@@ -2,26 +2,9 @@
 
 ## Stream redirections
 
-Overwrite bar.txt with foo.txt content
-
 ```sh
-cat foo.txt > bar.txt
-```
-
-Append foo.txt content to end of bar.txt
-
-```sh
-cat foo.txt >> bar.txt
-```
-
-Overwrite bar.txt with errors
-
-```sh
-cat . 2> bar.txt
-```
-
-Append errors to end of bar.txt
-
-```sh
-cat . 2>> bar.txt
+cat foo.txt > bar.txt   # overwrite bar.txt with foo.txt content
+cat foo.txt >> bar.txt  # append foo.txt content to end of bar.txt
+cat . 2> bar.txt        # overwrite bar.txt with errors
+cat . 2>> bar.txt       # append errors to end of bar.txt
 ```

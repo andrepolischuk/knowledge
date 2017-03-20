@@ -2,20 +2,18 @@
 
 ## Tildes
 
-Single tilde
+Single tilde:
 
 ```md
-**Foo** `` ` ``
+`` ` ``
 ```
 
-Will render as:  
-**Foo** `` ` ``
+Will render as: `` ` ``
 
-Closed tildes, fixed with [zero-width space](http://www.fileformat.info/info/unicode/char/200b/index.htm) between
+Closed tildes, fixed with [zero-width space](http://www.fileformat.info/info/unicode/char/200b/index.htm) between:
 
 ```md
-**Foo** `` `​` ``
+`` `​` ``
 ```
 
-Will render as:  
-**Foo** `` `​` ``
+Will render as: `` `​` ``
