@@ -4,6 +4,12 @@
 
 * [Cheat sheet](https://vim.rtorr.com)
 
+## Reload buf when focusing
+
+```viml
+autocmd FocusGained,BufEnter * :silent! !
+```
+
 ## Man
 
 Go to man page for word under cursor:

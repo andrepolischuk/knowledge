@@ -8,3 +8,9 @@ cat foo.txt >> bar.txt  # append foo.txt content to end of bar.txt
 cat . 2> bar.txt        # overwrite bar.txt with errors
 cat . 2>> bar.txt       # append errors to end of bar.txt
 ```
+
+## Get file by curl
+
+```sh
+curl -O -L -# <url>
+```
