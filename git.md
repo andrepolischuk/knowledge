@@ -27,3 +27,19 @@ git diff --shortstat "@{0 day ago}"
 ```sh
 git config core.fileMode false
 ```
+
+## Setup gpg key for signing
+
+```sh
+git config --global user.signingkey <key>
+```
+
+[source](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work)
+
+## Sign all commits with gpg
+
+```sh
+git config --global commit.gpgsign true
+```
+
+[source](http://stackoverflow.com/questions/10077996/sign-git-commits-with-gpg/20628543#20628543)
