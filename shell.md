@@ -14,3 +14,11 @@ cat . 2>> bar.txt       # append errors to end of bar.txt
 ```sh
 curl -O -L -# <url>
 ```
+
+## Aliases with sudo
+
+```sh
+alias sudo='sudo '
+```
+
+[source](http://askubuntu.com/a/22043)
