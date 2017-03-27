@@ -43,3 +43,9 @@ git config --global commit.gpgsign true
 ```
 
 [source](http://stackoverflow.com/questions/10077996/sign-git-commits-with-gpg/20628543#20628543)
+
+## Minimal git status
+
+```sh
+git status --short --branch
+```
