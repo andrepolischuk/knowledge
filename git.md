@@ -49,3 +49,9 @@ git config --global commit.gpgsign true
 ```sh
 git status --short --branch
 ```
+
+## Delete all merged branches
+
+```sh
+git branch --merged | sed "s/* master//g" | xargs -I % bash -c "git branch -d %; git push origin :%"
+```
