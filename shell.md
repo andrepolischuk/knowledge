@@ -22,3 +22,9 @@ alias sudo='sudo '
 ```
 
 [source](http://askubuntu.com/a/22043)
+
+## Init openconnect
+
+```sh
+sudo openconnect --user <username> --authgroup <usergroup> <server>
+```
