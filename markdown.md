@@ -17,3 +17,11 @@ Closed tildes, fixed with [zero-width space](http://www.fileformat.info/info/uni
 ```
 
 Will render as: `` `​` ``
+
+## Links with variables
+
+```md
+This repo is placed on [github][github].
+
+[github]: https://github.com
+```
