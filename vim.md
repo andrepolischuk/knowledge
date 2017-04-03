@@ -25,3 +25,22 @@ Use instead of `esc`:
 ```viml
 C-c
 ```
+
+## Show invisible spaces in list mode
+
+Since 7.4.710:
+
+```viml
+set listchars=space:·
+```
+
+[source](https://github.com/vim/vim/commit/adf123f0d55bbbe59dc139ede876431349446dd3)
+
+## Faster ctrlp search
+
+```viml
+let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+```
+
+* [ag](https://github.com/ggreer/the_silver_searcher)
+* [ctrlp](https://github.com/ctrlpvim/ctrlp.vim)
