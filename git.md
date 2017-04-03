@@ -55,3 +55,9 @@ git status --short --branch
 ```sh
 git branch --merged | sed "s/* master//g" | xargs -I % bash -c "git branch -d %; git push origin :%"
 ```
+
+## Pull all repos in current dir
+
+```sh
+ls -1d ./* | xargs -I % bash -c "cd %; git pull"
+```
