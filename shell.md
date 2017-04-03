@@ -28,3 +28,9 @@ alias sudo='sudo '
 ```sh
 sudo openconnect --user <username> --authgroup <usergroup> <server>
 ```
+
+## Make file executable
+
+```sh
+chmod +x script.sh
+```
