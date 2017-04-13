@@ -12,6 +12,7 @@ Inspired by Yoshua Wuyts [knowledge](https://github.com/yoshuawuyts/knowledge).
 * [HTML](html.md)
 * [Markdown](markdown.md)
 * [npm](npm.md)
+* [Programming](programming.md)
 * [Shell](shell.md)
 * [vim](vim.md)
 
