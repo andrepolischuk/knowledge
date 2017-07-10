@@ -38,5 +38,5 @@ chmod +x script.sh
 ## Mass replace
 
 ```sh
-find . -type f -name '*.js' -exec sed -i '' 's/foo/bar/g' {} \;
+find . -type f -name '*.js' -exec sed -i='' 's/foo/bar/g' {} \;
 ```
