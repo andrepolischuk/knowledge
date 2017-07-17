@@ -44,3 +44,9 @@ let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 
 * [ag](https://github.com/ggreer/the_silver_searcher)
 * [ctrlp](https://github.com/ctrlpvim/ctrlp.vim)
+
+## Git commit message rulers
+
+```viml
+autocmd FileType gitcommit set colorcolumn=51,73
+```
