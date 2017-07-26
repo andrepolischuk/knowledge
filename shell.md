@@ -40,3 +40,9 @@ chmod +x script.sh
 ```sh
 find . -type f -name '*.js' -exec sed -i='' 's/foo/bar/g' {} \;
 ```
+
+## Find the program running on a port
+
+```sh
+sudo lsof -i :80
+```
