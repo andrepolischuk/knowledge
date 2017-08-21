@@ -50,3 +50,11 @@ let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 ```viml
 autocmd FileType gitcommit set colorcolumn=51,73
 ```
+
+## Interactive replace
+
+By `c` flag
+
+```viml
+:%s/foo/bar/gc
+```
