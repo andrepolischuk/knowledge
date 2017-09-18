@@ -16,6 +16,7 @@ Inspired by Yoshua Wuyts [knowledge](https://github.com/yoshuawuyts/knowledge).
 * [Programming](programming.md)
 * [Shell](shell.md)
 * [vim](vim.md)
+* [Writing](writing.md)
 
 ## License
 
