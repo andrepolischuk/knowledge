@@ -46,3 +46,18 @@ find . -type f -name '*.js' -exec sed -i='' 's/foo/bar/g' {} \;
 ```sh
 sudo lsof -i :80
 ```
+
+## Flush OS dns cache
+
+On macOS:
+
+```sh
+sudo dscacheutil -flushcache
+sudo killall -HUP mDNSResponder
+```
+
+On windows:
+
+```sh
+ipconfig /flushdns
+```

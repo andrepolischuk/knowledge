@@ -53,7 +53,7 @@ autocmd FileType gitcommit set colorcolumn=51,73
 
 ## Interactive replace
 
-By `c` flag
+By `c` flag:
 
 ```viml
 :%s/foo/bar/gc
