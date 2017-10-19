@@ -8,6 +8,7 @@ Inspired by Yoshua Wuyts [knowledge](https://github.com/yoshuawuyts/knowledge).
 
 * [Browser](browser.md)
 * [CSS](css.md)
+* [English](english.md)
 * [git](git.md)
 * [HTML](html.md)
 * [Markdown](markdown.md)
