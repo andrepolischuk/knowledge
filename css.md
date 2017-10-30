@@ -34,3 +34,26 @@
   cursor: pointer;
 }
 ```
+
+## Specificity
+
+Selectors:
+
+0. types, pseudo-elements: `h1`, `::after`
+1. classes, attributes: `.class`, `[type="submit"]`
+2. identifiers: `#id`
+
+Nested example:
+
+0. `h1 {...}`
+1. `h1.title {...}`
+2. `h1#title {...}`
+3. `article h1 {...}`
+4. `article.note h1 {...}`
+5. `article#note h1 {...}`
+6. `style="..."`
+
+See also:
+
+* [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity)
+* [Specificity calculator](https://specificity.keegan.st)
